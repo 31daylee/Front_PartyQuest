@@ -1,0 +1,56 @@
+#sectionLine {
+  width: 100%;
+  color: black;
+  border: thin solid black;
+}
+#cate1 {
+  margin: 10px;
+}
+#cate2 {
+  margin: 10px;
+}
+#cate3 {
+  margin: 10px;
+}
+#addBtn {
+  margin: 10px;
+}
+#groupLocation1 {
+  margin: 10px;
+}
+#groupLocation2 {
+  margin: 10px;
+}
+#verification {
+  float: left;
+  margin: 10px;
+}
+#verificationSwitch {
+  margin: 10px;
+}
+#personnel {
+  margin: 10px;
+}
+
+#groupHead {
+  background-color: rgb(223, 80, 80, 0.4);
+  height: 140px;
+}
+#groupHead > label {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: white;
+}
+#StudyGroup {
+  margin-left: 35px;
+  color: rgb(241, 241, 241);
+}
+/* #btn-minus {
+  float: left;
+}
+#btn-value {
+  float: left;
+}
+#var-plus {
+  float: left;
+} */
