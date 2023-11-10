@@ -26,6 +26,10 @@ Table of contents
 --------------------------------------------- */
 
 /* Typography */
+a {
+  text-decoration: none;
+  color: #111;
+}
 body,
 ul,
 li,
@@ -47,7 +51,7 @@ div {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
-  font-size: 19px !important;
+  font-size: 17px !important;
   font-weight: bold;
 }
 .h1 {
@@ -61,7 +65,7 @@ div {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
-  font-size: 30px !important;
+  font-size: 25px !important;
   font-weight: 300;
 }
 .h3 {
@@ -72,7 +76,7 @@ div {
 }
 /* General */
 .logo {
-  width: 200px;
+  width: 300px;
 }
 .text-warning {
   color: #ede861 !important;
@@ -95,7 +99,7 @@ div {
   background-color: #f9f9f9 !important;
 }
 .bg-black {
-  background-color: rgb(223, 80, 80, 0.5) !important;
+  background-color: rgb(223, 80, 80, 0.2) !important;
 }
 .bg-success {
   background-color: #d62600 !important;
@@ -161,7 +165,7 @@ div {
   background: #e0e0e0;
 }
 .product-wap .product-color-dot.color-dot-green {
-  background: #0bff7e;
+  background: #d62600;
 }
 .card.product-wap .card .product-overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -217,7 +221,7 @@ div {
   color: #fff;
 }
 .services-icon-wap:hover {
-  background: #69bb7e;
+  background: #d62600;
 }
 /* Contact map */
 .leaflet-control a,
@@ -232,7 +236,7 @@ div {
   color: black;
 }
 #tempaltemo_footer a:hover {
-  color: #68bb7d;
+  color: #d62600;
 }
 #tempaltemo_footer ul.footer-link-list li {
   padding-top: 10px;
@@ -322,6 +326,7 @@ div {
 
 /* body 타이틀 */
 #title1 {
+  padding-top: 20px;
   font-size: 30px;
 }
 #titie2 {
@@ -335,7 +340,7 @@ div {
 }
 .btnNotice {
   line-height: 1;
-  background-color: #1dc078;
+  background-color: #d62600;
   color: #fff;
   margin-top: auto;
   align-items: center;
@@ -352,6 +357,11 @@ div {
 
 /*footer*/
 .fontLogo {
-  width: 300px;
+  width: 400px;
   height: 200px;
+}
+#tempaltemo_footer > div.w-100.bg-black.py-3 > div > div > div > p {
+  color: rgb(219, 218, 218);
+  font-weight: bold;
+  font-size: 14px;
 }
