@@ -89,17 +89,17 @@ div {
   font-weight: bold;
 }
 .text-light {
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 /*footer*/
 .bg-dark {
-  background-color: rgb(223, 80, 80, 0.4) !important;
+  background-color: rgba(151, 81, 81, 0.164) !important;
 }
 .bg-light {
   background-color: #f9f9f9 !important;
 }
 .bg-black {
-  background-color: rgb(223, 80, 80, 0.2) !important;
+  background-color: rgb(151, 81, 81,0.164) !important;
 }
 .bg-success {
   background-color: #d62600 !important;
@@ -233,6 +233,9 @@ div {
 }
 /* Footer */
 #tempaltemo_footer a {
+  font:  100 1em/1 "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
   color: black;
 }
 #tempaltemo_footer a:hover {
@@ -255,6 +258,8 @@ div {
   transition: 0.5s;
 }
 #tempaltemo_footer .border-light {
+  font: 100 1em/1 "Font Awesome 6 Pro";
+  font-size: 17px;
   border-color: #2d343f !important;
 }
 /*
@@ -354,14 +359,38 @@ div {
   font-size: 1rem;
   vertical-align: top;
 }
+/*btn 스타일*/
+.bi{
+  text-align: center;
+}
 
 /*footer*/
-.fontLogo {
-  width: 400px;
-  height: 200px;
+.footerContainer{
+
+  position: relative;
 }
-#tempaltemo_footer > div.w-100.bg-black.py-3 > div > div > div > p {
-  color: rgb(219, 218, 218);
-  font-weight: bold;
+.fontLogo {
+  float: left;
+  width: 120px;
+
+}
+#footerInfo{
+  float: left;
+
+}
+#tempaltemo_footer > div.w-100.bg-black.py-3 > div > div{
+  color: rgb(80, 79, 79);
+  font-weight: 500;
   font-size: 14px;
 }
+
+html, body{height: 100%}
+*{padding: 0px;margin: 0px}
+.card{background-color: #ffffff;border-radius: 20px}
+#heading{font-size: 18px}
+.darkWhite{color: #eaebf9}
+#desc{color: #b8babb;font-weight:500}
+.btn{background-color: #f05c5d;border-radius: 10px;font-size: 80%}
+.sp1{background-color: #37b6b2}.fa{color: white;font-size: 18px;font-weight: bold}
+.btn:focus{outline: none;box-shadow: none}
+*:focus{outline: none}
