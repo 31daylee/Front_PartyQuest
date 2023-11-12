@@ -383,14 +383,23 @@ div {
   font-weight: 500;
   font-size: 14px;
 }
-
+/*index Article*/
 html, body{height: 100%}
 *{padding: 0px;margin: 0px}
-.card{background-color: #ffffff;border-radius: 20px}
-#heading{font-size: 18px}
-.darkWhite{color: #eaebf9}
-#desc{color: #b8babb;font-weight:500}
-.btn{background-color: #f05c5d;border-radius: 10px;font-size: 80%}
-.sp1{background-color: #37b6b2}.fa{color: white;font-size: 18px;font-weight: bold}
-.btn:focus{outline: none;box-shadow: none}
+.card{
+  background-color: #ffffff;border-radius: 20px
+}
+#heading{
+  font-size: 18px
+}
+.darkWhite{
+  color: #eaebf9;
+  font-weight: 400;
+}
+#desc{
+  color: black; font-weight:500
+}
+.btnArticle{background-color: #fc7979;border-radius: 15px;font-size: 80%}
+.fa{color: white;font-size: 18px;font-weight: bold}
+.btnArticle:focus{outline: none;box-shadow: none}
 *:focus{outline: none}
