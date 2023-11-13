@@ -365,24 +365,22 @@ div {
 }
 
 /*footer*/
-.footerContainer{
-
-  position: relative;
-}
-.fontLogo {
-  float: left;
-  width: 120px;
-
-}
-#footerInfo{
-  float: left;
-
-}
 #tempaltemo_footer > div.w-100.bg-black.py-3 > div > div{
+
+}
+#tempaltemo_footer > div.w-100.bg-black.py-3 > div > div > img {
+  width: 100px;
+  float:left;
+  margin-top: -10px;
+}
+#tempaltemo_footer > div.w-100.bg-black.py-3 > div > div > #footerInfo{
+  width: auto;
   color: rgb(80, 79, 79);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
 }
+
+
 /*index Article*/
 html, body{height: 100%}
 *{padding: 0px;margin: 0px}
